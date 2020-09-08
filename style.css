@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:#1abc9c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container{
+	width:400px;
+	background: #fff;
+	height: 400px;
+	border-radius: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5em;
+}
+
+h1{
+	font-size: 5rem;
+	text-align: center;
+	color:#8e44ad;
+}
+
+button{
+	padding:1em 4em;
+	border-radius: 2em;
+	background: #8e44ad;
+	color:#fff;
+	margin:1em 0;
+}
